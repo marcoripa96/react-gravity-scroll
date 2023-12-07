@@ -12,5 +12,8 @@ export default defineConfig({
       entry: resolve(__dirname, "lib/index.ts"),
       formats: ["es"],
     },
+    rollupOptions: {
+      external: ["react", "react/jsx-runtime"],
+    },
   },
 });
