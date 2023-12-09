@@ -1,7 +1,7 @@
 import * as ScrollArea from "@radix-ui/react-scroll-area";
 import { useGravityScroll } from "../lib/useGravityScroll";
 import { PropsWithChildren } from "react";
-import { GravityScrollAreaProps } from "../lib";
+import { GravityScrollAreaProps } from "../lib/GravityScrollArea";
 
 export function RadixAutoScroll({
   children,

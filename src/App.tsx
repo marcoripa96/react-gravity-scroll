@@ -1,6 +1,5 @@
 import { ReactNode, useEffect, useRef, useState } from "react";
-import { GravityScrollArea } from "../lib";
-import { RadixAutoScroll } from "./Radix";
+import { GravityScrollArea } from "../";
 
 type Shape = "rectangle" | "circle" | "ellipse";
 

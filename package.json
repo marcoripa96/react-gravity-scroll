@@ -1,19 +1,27 @@
 {
   "name": "react-gravity-scroll",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
+  "main": "dist/react-gravity-scroll.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc --p ./tsconfig-build.json && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@radix-ui/react-scroll-area": "^1.0.5",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.37",
@@ -28,5 +36,12 @@
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.6.4",
     "vite-plugin-lib-inject-css": "^1.3.0"
-  }
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "keywords": [
+    "react",
+    "react-hooks"
+  ]
 }
