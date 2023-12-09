@@ -17,7 +17,7 @@ I was tired of having to build this everytime I had a chat-like experience in my
 With npm:
 
 ```sh
-npm install @mr96/react-scroll-gravity
+npm install react-gravity-scroll
 ```
 
 ## Quick Start
@@ -27,7 +27,7 @@ You can simply use the `GravityScrollArea` component and that's it.
 You can enable or disable the automatic scroll with the `autoScrollEnabled` prop and also set a custom `scrollThreshold` to let the component know when it should scroll to the bottom (works with both `px` and `%`).
 
 ```tsx
-import { GravityScrollArea } from "@mr96/react-scroll-gravity";
+import { GravityScrollArea } from "react-gravity-scroll";
 
 export default function App() {
   const { content } = ...
@@ -49,10 +49,7 @@ You can also use the useGravityScroll hook to build your own gravity scroller co
 
 ```tsx
 import * as ScrollArea from "@radix-ui/react-scroll-area";
-import {
-  useGravityScroll,
-  GravityScrollAreaProps,
-} from "@mr96/react-scroll-gravity";
+import { useGravityScroll, GravityScrollAreaProps } from "react-gravity-scroll";
 
 export function RadixGravityScroll({
   children,
