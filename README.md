@@ -1,4 +1,4 @@
-# react-scroll-gravity
+# React Gravity Scroll
 
 A simple component and hook to keep your container scrolled to the bottom.
 
