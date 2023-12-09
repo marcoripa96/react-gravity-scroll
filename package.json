@@ -1,7 +1,7 @@
 {
   "name": "react-gravity-scroll",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "main": "dist/react-gravity-scroll.js",
   "types": "dist/index.d.ts",

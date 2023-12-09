@@ -1,3 +1,5 @@
+"use client";
+
 import { HTMLAttributes, forwardRef } from "react";
 import { UseGravityScrollProps, useGravityScroll } from "./useGravityScroll";
 
