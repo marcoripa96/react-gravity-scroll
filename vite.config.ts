@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     copyPublicDir: false,
     lib: {
-      entry: resolve(__dirname, "lib/index.ts"),
+      entry: resolve(__dirname, "lib/index.tsx"),
       formats: ["es"],
     },
     rollupOptions: {
