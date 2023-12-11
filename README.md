@@ -1,6 +1,6 @@
 # React Gravity Scroll
 
-A simple component and hook to keep your container scrolled to the bottom.
+A simple component and hook to keep your container scrolled to the bottom. Docs here: https://react-gravity-scroll-docs.vercel.app/
 
 ---
 
